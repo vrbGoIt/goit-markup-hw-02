@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap'); */
 
 /* * {
     margin: 0;
@@ -7,13 +7,24 @@
     box-sizing: border-box;
 } */
 
+:root {
+    --text-color: #434455;
+    --background-color: #fff;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #434455;
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+.link {
+    list-style: none;
+    text-decoration: none;
 }
 
 .navigation:hover {
