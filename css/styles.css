@@ -13,6 +13,7 @@
     --logo-accent-color: #4D5AE5;
     --link-color: #2e2f42;
     --link-hover-color: #404BBF;
+    --contact-color: #434455;
 }
 
 body {
@@ -33,7 +34,7 @@ body {
     color: var(--link-color);
 }
 
-.link:hover {
+.link:hover, .link:focus {
     color: var(--link-hover-color);
 }
 
@@ -57,4 +58,17 @@ body {
 
 .logo-black {
     color: #2E2F42;
+}
+
+.contact {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* SLATE */
+
+    color: ;
 }
