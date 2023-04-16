@@ -104,7 +104,7 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
 
     text-align: center;
     letter-spacing: 0.02em;
@@ -113,6 +113,7 @@ body {
 }
 
 .button-header {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -121,7 +122,12 @@ body {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
 
     background-color: var(--logo-accent-color);
     color: #FFFFFF;
+}
+
+.button-header:hover, .button-header:focus {
+    background-color: var(--link-hover-color);
 }
