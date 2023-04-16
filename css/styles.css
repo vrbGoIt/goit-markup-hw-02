@@ -11,7 +11,7 @@
     --text-color: #434455;
     --background-color: #fff;
     --logo-accent-color: #4D5AE5;
-    --link-color: #2e2f42;
+    --text-color: #2e2f42;
     --link-hover-color: #404BBF;
     --contact-color: #434455;
 }
@@ -28,10 +28,11 @@ body {
 }
 
 .link {
-    list-style: none;
     text-decoration: none;
-    
-    color: var(--link-color);
+}
+
+.list {
+    list-style: none;
 }
 
 .link:hover, .link:focus {
@@ -52,18 +53,33 @@ body {
 }
 
 .logo-black {
-    color: #2E2F42;
+    color: var(--text-color);
 }
 
-.contact {
+.menu {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.02em;
+
+    /* NAVY BLUE */
+
+    color: var(--text-color);
+}
+
+.contacts {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     /* identical to box height, or 150% */
 
     letter-spacing: 0.02em;
 
     /* SLATE */
 
-    color: ;
+    color: var(--contact-color);
 }
