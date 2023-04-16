@@ -10,6 +10,9 @@
 :root {
     --text-color: #434455;
     --background-color: #fff;
+    --logo-accent-color: #4D5AE5;
+    --link-color: #2e2f42;
+    --link-hover-color: #404BBF;
 }
 
 body {
@@ -18,6 +21,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--text-color);
     background: var(--background-color);
 }
@@ -25,8 +29,32 @@ body {
 .link {
     list-style: none;
     text-decoration: none;
+    
+    color: var(--link-color);
 }
 
-.navigation:hover {
-    color: #404BBF;
+.link:hover {
+    color: var(--link-hover-color);
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height, or 117% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    /* IRIS */
+
+    color: var(--logo-accent-color);
+}
+
+.logo-black {
+    color: #2E2F42;
 }
