@@ -11,7 +11,7 @@
     --text-color: #434455;
     --background-color: #fff;
     --logo-accent-color: #4D5AE5;
-    --text-color: #2e2f42;
+    --memu-color: #2e2f42;
     --link-hover-color: #404BBF;
     --contact-color: #434455;
 }
@@ -23,7 +23,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+    color: #434455;
     background: var(--background-color);
 }
 
@@ -67,7 +67,7 @@ body {
 
     /* NAVY BLUE */
 
-    color: var(--text-color);
+    color: var(--menu-color);
 }
 
 .contacts {
