@@ -141,3 +141,15 @@ body {
 
     color: var(--navy-blue);
 }
+
+.works-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: var(--navy-blue);
+}
