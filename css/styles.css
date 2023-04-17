@@ -132,7 +132,7 @@ body {
     background-color: var(--link-hover-color);
 }
 
-.quality-header {
+.quality-name {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
