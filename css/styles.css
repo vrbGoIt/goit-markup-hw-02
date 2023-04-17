@@ -113,7 +113,7 @@ body {
 }
 
 .button-header {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -130,4 +130,14 @@ body {
 
 .button-header:hover, .button-header:focus {
     background-color: var(--link-hover-color);
+}
+
+.quality-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+
+    color: var(--navy-blue);
 }
