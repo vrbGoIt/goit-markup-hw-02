@@ -170,6 +170,10 @@ body {
     color: var(--navy-blue);
 }
 
+.our-team-item {
+    background-color: #FFFFFF;
+}
+
 .our-team-item-header {
     font-style: normal;
     font-weight: 500;
