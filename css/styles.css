@@ -189,4 +189,18 @@ body {
     font-size: 16px;
 }
 
-
+.list_button {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+    
+        color: var(--logo-accent-color);
+        background-color: var(--cloud);
+}
