@@ -190,17 +190,39 @@ body {
 }
 
 .list_button {
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-    
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.04em;
-    
-        color: var(--logo-accent-color);
-        background-color: var(--cloud);
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: var(--logo-accent-color);
+    background-color: var(--cloud);
+
+    cursor: pointer;
+}
+
+.list_button:hover,
+.list_button:focus {
+    color: #FFFFFF;
+    background-color: var(--link-hover-color);
+}
+
+.product-header {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    color: var(--navy-blue);
+}
+
+.product-type {
+    color: var(--contact-color);
 }
