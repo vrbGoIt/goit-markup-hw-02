@@ -20,11 +20,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--text-color);
     background: var(--background-color);
 }
@@ -39,12 +36,10 @@ body {
 }
 
 .footer-text {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-
     color: var(--cloud);
 }
 
@@ -62,14 +57,11 @@ body {
 
 .logo {
     font-family: 'Raleway',sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: var(--logo-accent-color);
 }
 
@@ -82,17 +74,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
     color: var(--menu-color);
 }
 
 .contacts {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
     color: var(--contact-color);
 }
 
@@ -101,29 +90,23 @@ body {
 }
 
 .main-header {
-    font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #FFFFFF;
 }
 
 .button-header {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
-
     background-color: var(--logo-accent-color);
     color: #FFFFFF;
 }
@@ -133,24 +116,24 @@ body {
 }
 
 .quality-name {
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-
     color: var(--navy-blue);
 }
 
+.quality-text {
+    font-weight: 400;
+}
+
 .works-header {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
     color: var(--navy-blue);
 }
 
@@ -159,14 +142,12 @@ body {
 }
 
 .our-team-header {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-
     color: var(--navy-blue);
 }
 
@@ -175,13 +156,11 @@ body {
 }
 
 .our-team-item-header {
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-
     color: var(--navy-blue);
 }
 
@@ -191,19 +170,15 @@ body {
 
 .list_button {
     font-family: 'Roboto',sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-
+    line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-
     color: var(--logo-accent-color);
     background-color: var(--cloud);
-
     cursor: pointer;
 }
 
@@ -214,12 +189,10 @@ body {
 }
 
 .product-header {
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
     color: var(--navy-blue);
 }
 
